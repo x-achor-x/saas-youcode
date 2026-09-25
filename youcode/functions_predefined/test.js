@@ -1,22 +1,22 @@
 //const	prompt = require("prompt-sync")();
 
-//var	a = []
+//var	arr = []
 //var	ask = prompt("Enter ur number of elements :" );
 
 //for( i = 0 ; i < ask ; i++ ) {
 //	let nombre = prompt(" enter ur number : ");
 //	a.push(nombre);
 //}
-//var a = [1,2,3,4,5];
+//var arr = [1,2,3,4,5];
 
-function arrayLength(a){
-  var i = 0;
-  while(a[i])
+function lala(arr){
+  var long = 0;
+  while(arr[long] !== undefined )
 	{
-    	i++;
+    	long++;
 	}
-  	return i;
+  	return long;
 }
 
-console.log(arrayLength(""));       // 5
+console.log(lala("sara"));       // 5
 
